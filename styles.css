@@ -1,0 +1,80 @@
+body {
+  background: #000;
+  color: aquamarine;
+}
+div.header {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  font-family: "Indie Flower";
+  width: 50%;
+  margin: auto;
+}
+div.header h2 {
+  font-size: 60px;
+}
+div.header .fadeInOut {
+  animation: fadeInOut 3s;
+}
+
+div.header h1 {
+  font-size: 60px;
+  border-bottom: 2px solid aquamarine;
+  animation: fadeIn 1s ease-in;
+}
+span.one {
+  animation: fadeIn 1s ease-in;
+}
+span.two {
+  animation: fadeIn 2s ease-in;
+}
+span.three {
+  animation: fadeIn 3s ease-in;
+}
+div.main {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  animation: fadeIn 5s ease-in;
+}
+h1 {
+  color: lightsalmon;
+}
+h2 {
+  color: mediumslateblue;
+}
+i {
+  font-size: 60px;
+  display: flex;
+  padding: 0 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+#hiddenDiv i {
+  cursor: initial;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

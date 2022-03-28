@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="header">
+      <div id="one">
+        <i class="far fa-hand-rock"></i>
+        <h2>Rock</h2>
+      </div>
+      <div class="hidden" id="two">
+        <i class="far fa-hand-paper"></i>
+        <h2>Paper</h2>
+      </div>
+      <div class="hidden" id="three">
+        <i class="far fa-hand-scissors"></i>
+        <h2>Scissors</h2>
+      </div>
+      <h1 class="hidden" id="rps">
+        <span class="one">Rock</span> <span class="two">Paper</span>
+        <span class="three">Scissors</span>
+      </h1>
+    </div>
+    <div class="hidden" id="main">
+      <div class="main">
+        <h1>Make Your Choice:</h1>
+        <i class="far fa-hand-rock" id="rock"></i>
+        <i class="far fa-hand-paper" id="paper"></i>
+        <i class="far fa-hand-scissors" id="scissors"></i>
+        <div class="hidden" id="hiddenDiv">
+          <h2>Computer chooses:</h2>
+          <div class="computer" id="computer"></div>
+          <h1 class="win-lose-draw" id="results"></h1>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
+<!-- Copyright 2021 Dave Beidle
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. -->

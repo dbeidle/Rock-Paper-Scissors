@@ -1,0 +1,9 @@
+# Directories to ignore:
+**/node_modules/
+**/dist/
+
+# Specific files to ignore
+.DS_Store
+.env
+yarn.lock
+package-lock.json
